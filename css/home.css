@@ -25,6 +25,8 @@ header {
     background-repeat: no-repeat;
     position: relative;
     overflow-x: hidden;
+
+    box-shadow: 0 10px 20px black;
 }
 
 nav ul {
@@ -200,6 +202,10 @@ nav ul li a:hover {
     width: 50%;
 }
 
+main {
+    width: 100%;
+}
+
 .classification {
     width: 100%;
     height: 100vh;
@@ -239,6 +245,9 @@ nav ul li a:hover {
     height: 100vh;
     overflow: hidden;
     position: relative;
+
+    box-shadow: 0 -10px 20px black;
+
 }
 
 .best-choice {
@@ -368,7 +377,7 @@ nav ul li a:hover {
 }
 
 
-@media (max-width: 570px) {
+@media (max-width: 500px) {
     .best-choice img, .top-seller img {width: 160px;}
 
     .best-choice div .title,
@@ -378,7 +387,7 @@ nav ul li a:hover {
 
     .best-choice div .coffee-name,
     .top-seller div .coffee-name {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
 }
